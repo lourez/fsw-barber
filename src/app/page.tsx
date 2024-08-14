@@ -1,5 +1,4 @@
 import { Button } from "./_components/ui/button"
-import { Card, CardContent } from "./_components/ui/card"
 import Header from "./_components/ui/header"
 import { Input } from "./_components/ui/input"
 import Image from "next/image"
@@ -79,15 +78,6 @@ const Home = async () => {
           ))}
         </div>
       </div>
-      <footer>
-        <Card>
-          <CardContent className="px-5 py-6">
-            <p className="text-sm text-gray-400">
-              © 2023 Copyright <span className="font-bold">FSW Barber</span>
-            </p>
-          </CardContent>
-        </Card>
-      </footer>
     </div>
   )
 }
